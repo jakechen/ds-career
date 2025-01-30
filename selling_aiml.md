@@ -5,7 +5,12 @@
 - 50% time spent selling DS projects… because I saw too many failed projects from poor sales
     - I know the pain of poor scoping, so I try not to subject others to that pain
 
+# Why am I putting this together?
+- Because I have a horrible memory so I need notes to remind myself of what I've learned.
+- Because I have learned some things the hard way which some DS might find helpful.
+
 # Highlights
+- The most important question a Data Scientist should ask is **so what**... you have a good model, so what?
 - Cloud revenue comes from data infra, not from AI/ML infra
 - Dangle latest AI
 - Problems before solutions
@@ -13,7 +18,17 @@
     - Must use customer’s language
 - Get upstream of sales pipeline
 
-# Observations
+# Random notes
+## Mistakes made, lessons learned
+- Trying to sell solutions, not addressing business goals
+    - Lesson: hide any technical discussion until calls 2 or 3
+- Moment: not being able to articulate how my models would impact their bottom line
+    - Learning: Not having enough domain expertise
+    - Action: industry-specific language is key
+- Sell problems, not solutions
+- Sell with industry-specific language and use cases
+    - AI is not sold to IT, it’s sold to business
+
 ## Sales
 - Our team’s goal is platform spend (obviously).
 - Friends buy from friends, and friends help each other succeed.
@@ -31,7 +46,19 @@
     - How to ensure both short and long-term commitment?
 - AI is a long-term play.
     - ROI-generating AI requires end user buy-in (UAT), data at scale (multiple teams, multiple warehouses), in production (DevOps, security)
-    - 
+
+# Part 1: Building a pipeline
+## How to identify use cases?
+- Easy: what are processes that a human can do within 3 seconds?
+    - These are boring, tedious, prone to error, and ripe for automation.
+- Medium: ask the above but for the customer’s customer.
+- Hard: where is the industry going? Requires domain expertise
+    - IoT 4, sustainability, efficiency
+
+## How to prioritize use cases
+1. Business: Why should this project be done? How will it make money? Who is buying?
+2. Technical: What data is needed? What model is used? How will the end user gain value? How will it all get piped together?
+3. Operational: Who will own and maintain the code? How will value be realized?
 
 # How does our stakeholder get paid?
 Value chain
@@ -71,28 +98,12 @@ Metrics
     - Internal: training, opportunity cost, new hires
     - Partner inc. GCC: high bill rate, PM overhead
 
-# Conversation starters
-- Easy: what are processes that a human can do within 3 seconds?
-    - These are boring, tedious, prone to error, and ripe for automation.
-- Medium: ask the above but for the customer’s customer.
-- Hard: where is the industry going? Requires domain expertise
-    - IoT 4, sustainability, efficiency
-
 # 2 path for stickiness
 - Short-term AI POC, target long-term digital transformation
     - Depends on data migration for full scalability
 - Short-term DA, target long-term data migration
     - This is money maker for GCP
 
-# Mistakes made, lessons learned
-- Trying to sell solutions, not addressing business goals
-    - Lesson: hide any technical discussion until calls 2 or 3
-- Moment: not being able to articulate how my models would impact their bottom line
-    - Learning: Not having enough domain expertise
-    - Action: industry-specific language is key
-- Sell problems, not solutions
-- Sell with industry-specific language and use cases
-    - AI is not sold to IT, it’s sold to business
 
 # Questions / follow-up
 - How to leverage entire Alphabet to differentiate e.g. DeepMind, GSuite, Maps, Assistant, Android
