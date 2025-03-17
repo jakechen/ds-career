@@ -55,10 +55,17 @@
 - Hard: where is the industry going? Requires domain expertise
     - IoT 4, sustainability, efficiency
 
+# Part 2: Prioritizing pipeline
 ## How to prioritize use cases
 1. Business: Why should this project be done? How will it make money? Who is buying?
 2. Technical: What data is needed? What model is used? How will the end user gain value? How will it all get piped together?
 3. Operational: Who will own and maintain the code? How will value be realized?
+
+## Discovery workshop agenda
+Hour 1: Voice of customer
+Hour 2: Business process understanding (we'll listen in for use cases here)
+Hour 3: Use case deep dive, ROI justification, prioritization/triage
+Hour 4: Technical deep dive, next steps
 
 # How does our stakeholder get paid?
 Value chain
