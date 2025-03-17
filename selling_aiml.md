@@ -1,8 +1,8 @@
 # Jake’s guide to how to make money selling AI/ML
 
 # Who am I?
-- 9 years client-facing data scientist consultant, picked up MLOps later.
-- 50% time spent selling DS projects… because I saw too many failed projects from poor sales
+- 9 years client-facing DS+MLOps consultant.
+- 50% time spent selling full-stack DS projects… because I saw too many failed projects from poor sales
     - I know the pain of poor scoping, so I try not to subject others to that pain
 
 # Why am I putting this together?
@@ -59,12 +59,6 @@
 2. Technical: What data is needed? What model is used? How will the end user gain value? How will it all get piped together?
 3. Operational: Who will own and maintain the code? How will value be realized?
 
-## Discovery workshop agenda
-Hour 1: Voice of customer  
-Hour 2: Business process understanding (we'll listen in for use cases here)  
-Hour 3: Use case deep dive, ROI justification, prioritization/triage  
-Hour 4: Technical deep dive, next steps  
-
 # How do we determine ROI?
 ## Determining return
 - Past use cases
@@ -109,6 +103,11 @@ Metrics
 ### Example 3: VP of Digital Transformation, TSMC
 Metrics
 
-# Questions / follow-up
-- How to leverage entire Alphabet to differentiate e.g. DeepMind, GSuite, Maps, Assistant, Android
-    - See Mercedes demo
+# Templates
+## Discovery workshop agenda
+Purpose: Working backwards from business outcomes, arrive at informtion to derive 1+ projects/SOWs.
+Agenda: 
+- Hour 1: Voice of customer
+- Hour 2: Business process understanding (we'll listen in for use cases here)
+- Hour 3: Use case deep dive, ROI justification, prioritization/triage
+- Hour 4: Technical deep dive, next steps
