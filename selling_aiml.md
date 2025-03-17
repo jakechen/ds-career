@@ -57,7 +57,7 @@
 
 # Part 2: Prioritizing pipeline
 ## How to prioritize use cases
-1. Business: Why should this project be done? How will it make money? Who is buying?
+1. Business: Why should this project be done? How will it make money? Who is buying? What is current end-user day-in-the-life/UX?
 2. Technical: What data is needed? What model is used? How will the end user gain value? How will it all get piped together?
 3. Operational: Who will own and maintain the code? How will value be realized?
 
