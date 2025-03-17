@@ -18,16 +18,14 @@
     - Must use customer’s language
 - Get upstream of sales pipeline
 
-# Random notes
-## Mistakes made, lessons learned
-- Trying to sell solutions, not addressing business goals
-    - Lesson: hide any technical discussion until calls 2 or 3
-- Moment: not being able to articulate how my models would impact their bottom line
-    - Learning: Not having enough domain expertise
-    - Action: industry-specific language is key
-- Sell problems, not solutions
-- Sell with industry-specific language and use cases
-    - AI is not sold to IT, it’s sold to business
+# Background context
+## AI
+- Our team’s goal is entire platform spend, not just AI.
+- AI is not money maker, DM is money maker. This is because “Data has gravity”.
+- Thus makes the most sense to dangle latest AI to drive data gravity
+    - How to ensure both short and long-term commitment?
+- AI is a long-term play.
+    - ROI-generating AI requires end user buy-in (UAT), data at scale (multiple teams, multiple warehouses), in production (DevOps, security)
 
 ## Sales
 - Our team’s goal is platform spend (obviously).
@@ -38,14 +36,14 @@
 - If our stakeholder gets paid more than they me us i.e. positive ROI, then paying us is an obvious choice.
     - How do we determine how much they’ll get paid i.e. the return?
     - How do we determine how much they’ll pay us i.e. the investment?
-
-## AI
-- Our team’s goal is entire platform spend, not just AI.
-- AI is not money maker, DM is money maker. This is because “Data has gravity”.
-- Thus makes the most sense to dangle latest AI to drive data gravity
-    - How to ensure both short and long-term commitment?
-- AI is a long-term play.
-    - ROI-generating AI requires end user buy-in (UAT), data at scale (multiple teams, multiple warehouses), in production (DevOps, security)
+ 
+## Mistakes made, lessons learned
+- Trying to sell solutions while not addressing business goals
+    - Lesson: sell problems, not solutions; hide any technical discussion until calls 2 or 3
+- Not being able to articulate how my models would impact their bottom line
+    - Lesson: Not having enough domain expertise
+    - Lesson: AI is not sold to IT, it’s sold to business
+    - Action: Industry-specific language is key
 
 # Part 1: Building a pipeline
 ## How to identify use cases?
@@ -66,6 +64,25 @@ Hour 1: Voice of customer
 Hour 2: Business process understanding (we'll listen in for use cases here)  
 Hour 3: Use case deep dive, ROI justification, prioritization/triage  
 Hour 4: Technical deep dive, next steps  
+
+# How do we determine ROI?
+## Determining return
+- Past use cases
+- DS metrics → industry-specific metric
+    - Precision and recall in industry terms
+- Parallel long-term short-term path
+
+## Determining investment
+- Underlying
+- Implementation
+    - Internal: training, opportunity cost, new hires
+    - Partner inc. GCC: high bill rate, PM overhead
+
+# 2 path for stickiness
+- Short-term AI POC, target long-term digital transformation
+    - Depends on data migration for full scalability
+- Short-term DA, target long-term data migration
+    - This is money maker for GCP
 
 # How does our stakeholder get paid?
 Value chain
@@ -91,26 +108,6 @@ Metrics
 
 ### Example 3: VP of Digital Transformation, TSMC
 Metrics
-
-# How do we determine ROI?
-## Determining return
-- Past use cases
-- DS metrics → industry-specific metric
-    - Precision and recall in industry terms
-- Parallel long-term short-term path
-
-## Determining investment
-- Underlying
-- Implementation
-    - Internal: training, opportunity cost, new hires
-    - Partner inc. GCC: high bill rate, PM overhead
-
-# 2 path for stickiness
-- Short-term AI POC, target long-term digital transformation
-    - Depends on data migration for full scalability
-- Short-term DA, target long-term data migration
-    - This is money maker for GCP
-
 
 # Questions / follow-up
 - How to leverage entire Alphabet to differentiate e.g. DeepMind, GSuite, Maps, Assistant, Android
