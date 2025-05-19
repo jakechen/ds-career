@@ -46,25 +46,56 @@
     - Action: Industry-specific language is key
 
 # Part 1: Building a pipeline
-## How to identify use cases?
+
+## How to identify a use case base on efficiency gained or cost reduced.
 - Easy: what are processes that a human can do within 3 seconds?
     - These are boring, tedious, prone to error, and ripe for automation.
 - Medium: ask the above but for the customer’s customer.
 - Hard: where is the industry going? Requires domain expertise
     - IoT 4, sustainability, efficiency
 
-# Part 2: Prioritizing pipeline
-## How to prioritize use cases
-1. Business: Why should this project be done? How will it make money? Who is buying? What is current end-user day-in-the-life/UX?
-2. Technical: What data is needed? What model is used? How will the end user gain value? How will it all get piped together?
-3. Operational: Who will own and maintain the code? How will value be realized?
+# Part 2: Prioritizing pipeline based on ROI
 
-# How do we determine ROI?
-## Determining return
+## Calculating returns (Why)
+First, we establish what the potential returns on a project will be. Returns on investment can be divided into two buckets: increasing profits or decreasing losses aka as generating revenue vs reducing cost.
+
+### Cost reduction-based opportunities
+- Start with cost reduction as it's often the easier one to determine since AI/ML is about automation.
+- Cost reduced = time reduced per person * people enabled.
+
+### Generating revenue
+
+
+### Value chain-based discovery
+- Organization:
+    - What is their business model? Do they sell products, services, subscriptions, something else?
+        - If B2C: Who is the end customer?
+        - If B2B: Who is their end customer?
+    - Domain expertise is key
+- Team/organization: connect the dots
+    - What is their "business model"?
+- Personal: metrics
+    - Step into their shoes
+    - Validate pain points
+    - Confirm prescriptions
+- Bonus: personal aspirations
+- Beware some DS can be defensive. Stress that you’re not here for their job and are only here to empower them
+    - “1) you know more about your data than I do and 2) I’m very happy here at Google. I’m simply here to see if GCP can help you do your job easier.”
 - Past use cases
 - DS metrics → industry-specific metric
     - Precision and recall in industry terms
 - Parallel long-term short-term path
+
+
+### Examples
+Example 1: AWS AI CE
+Metrics
+
+Example 2: Plant manager, TSMC
+Metrics
+
+Example 3: VP of Digital Transformation, TSMC
+Metrics
 
 ## Determining investment
 - Underlying
@@ -78,32 +109,13 @@
 - Short-term DA, target long-term data migration
     - This is money maker for GCP
 
-# How does our stakeholder get paid?
-Value chain
-- Organization:
-    - What is their business model?
-        - If B2C: Who is the end customer?
-        - If B2B: Who is their end customer?
-    - Domain expertise is key
-- Personal: metrics
-    - Step into their shoes
-    - Validate pain points
-    - Confirm prescriptions
-- Team: connect the dots
-- Bonus: personal aspirations
-- Beware some DS can be defensive. Stress that you’re not here for their job and are only here to empower them
-    - “1) you know more about your data than I do and 2) I’m very happy here at Google. I’m simply here to see if GCP can help you do your job easier.”
-
-### Example 1: AWS AI CE
-Metrics
-
-### Example 2: Plant manager, TSMC
-Metrics
-
-### Example 3: VP of Digital Transformation, TSMC
-Metrics
 
 # Templates
+## Discovery questions
+1. Business: WHY should this project be done? Who is buying? What is current end-user day-in-the-life/UX? Why will the end-user buy (with money or with time) this?
+2. Technical: WHAT is being built to generate value? What data is needed? What model is used? What agents are being deployed? What is the UI/UX the end user will use? What is the orchestration and pipelining?
+3. Operational: WHO will own and maintain the code? How will value be realized?
+
 ## Discovery workshop agenda
 Purpose: Working backwards from business outcomes, arrive at informtion to derive 1+ projects/SOWs.
 Agenda: 
