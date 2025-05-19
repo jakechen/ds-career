@@ -1,24 +1,28 @@
 # Jake’s guide to how to make money selling AI/ML
 
-# Who am I?
-- 9 years client-facing DS+MLOps consultant.
-- 50% time spent selling full-stack DS projects… because I saw too many failed projects from poor sales
-    - I know the pain of poor scoping, so I try not to subject others to that pain
+# Introduction
+## Who am I?
+- Decade-long client-facing DS+MLOps lead consultant:
+    - 33% selling projects to ensure realistic (and fun) projects for my team
+    - 33% leading model development to ensure accuracy
+    - 33% leading MLE development to ensure models end up in production
+- Switched to technical sales focused on AI.
 
-# Why am I putting this together?
+## Why am I putting this together?
 - Because I have a horrible memory so I need notes to remind myself of what I've learned.
 - Because I have learned some things the hard way which some DS might find helpful.
 
-# Highlights
+## Highlights
 - The most important question a Data Scientist should ask is **so what**... you have a good model, so what?
-- Cloud revenue comes from data infra, not from AI/ML infra
-- Dangle latest AI
-- Problems before solutions
+    - Problems before solutions
+- Cloud revenue comes from data, not from AI/ML infra
+    - Dangle latest AI to open the door, but pivot to underlying data
 - AI requires domain expertise and industrial language
     - Must use customer’s language
 - Get upstream of sales pipeline
 
-# Background context
+
+# First principles
 ## AI
 - Our team’s goal is entire platform spend, not just AI.
 - AI is not money maker, DM is money maker. This is because “Data has gravity”.
@@ -45,34 +49,24 @@
     - Lesson: AI is not sold to IT, it’s sold to business
     - Action: Industry-specific language is key
 
-# Part 1: Building a pipeline
 
-## How to identify a use case base on efficiency gained or cost reduced.
+# Part 1: Building a pipeline
+First, we establish what the potential returns on a project will be. Returns on investment can be divided into two buckets: increasing profits or decreasing losses aka as generating revenue vs reducing cost.
+
+## Identifying a use case base on efficiency gained or cost reduced.
 - Easy: what are processes that a human can do within 3 seconds?
     - These are boring, tedious, prone to error, and ripe for automation.
 - Medium: ask the above but for the customer’s customer.
 - Hard: where is the industry going? Requires domain expertise
     - IoT 4, sustainability, efficiency
 
-# Part 2: Prioritizing pipeline based on ROI
-
-## Calculating returns (Why)
-First, we establish what the potential returns on a project will be. Returns on investment can be divided into two buckets: increasing profits or decreasing losses aka as generating revenue vs reducing cost.
-
-### Cost reduction-based opportunities
-- Start with cost reduction as it's often the easier one to determine since AI/ML is about automation.
-- Cost reduced = time reduced per person * people enabled.
-
-### Generating revenue
-
-
-### Value chain-based discovery
-- Organization:
+## Value chain-based discovery
+- Organization/company:
     - What is their business model? Do they sell products, services, subscriptions, something else?
         - If B2C: Who is the end customer?
         - If B2B: Who is their end customer?
     - Domain expertise is key
-- Team/organization: connect the dots
+- Team/unit/department: connect the dots
     - What is their "business model"?
 - Personal: metrics
     - Step into their shoes
@@ -87,21 +81,75 @@ First, we establish what the potential returns on a project will be. Returns on 
 - Parallel long-term short-term path
 
 
-### Examples
-Example 1: AWS AI CE
+# Part 2: Prioritizing pipeline based on ROI
+
+## Calculating returns (Why)
+
+### Calculating potential cost reduction
+- Start with cost reduction as it's often the easier one to determine since AI/ML is about automation.
+- Cost reduced = time reduced per person * people enabled.
+
+### Calculating potential revenue gained
+- What is customer willing to pay?
+- What is baseline value customer is gaining from your AI product/service?
+
+## Calculating investment
+### Operating Expenditure
+Cloud consumption for custom AI/ML
+- Compute: data engineering
+- Compute: model training and inference
+    - Vertex train
+    - Vertex deploy
+    - Cloud Run
+    - GKE
+- Compute: end-user UI / API
+    - Dashboard
+    - Pipeline to 
+- Storage:
+    - Structured data in BQ, etc
+    - Unstructured data in GCS
+
+Cloud consumption for GenAI
+- LLM API
+    - Managed
+        - Gemini 2.5
+        - Gemini 2.0
+    - Custom model training and inference
+        - See above for AI/ML
+- Compute: end-user UI / API
+    - Agent Engine
+    - Cloud Run
+    - GKE
+- Storage
+    - Embedding index
+    - Context cache
+
+### Capital Expenditure
+Implementation
+- Internal: training, opportunity cost, new hires
+- Partner inc. GCC: high bill rate, PM overhead
+
+### Total expenditures
+- What is breakeven? What are assumptions to / probablity of breakeven?
+
+## Realizing ROI
+### Path to production
+
+### Stakeholders
+
+### Politics
+If the above calculations result in a positive ROI and you are still facing objections, then there may be political forces at play.
+
+## Examples
+### Example 1: GCP AI CE
 Metrics
 
-Example 2: Plant manager, TSMC
+### Example 2: Plant manager, TSMC
 Metrics
 
-Example 3: VP of Digital Transformation, TSMC
+### Example 3: VP of Digital Transformation, TSMC
 Metrics
 
-## Determining investment
-- Underlying
-- Implementation
-    - Internal: training, opportunity cost, new hires
-    - Partner inc. GCC: high bill rate, PM overhead
 
 # 2 path for stickiness
 - Short-term AI POC, target long-term digital transformation
