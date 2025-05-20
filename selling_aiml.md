@@ -49,11 +49,12 @@
 First, we establish what the potential returns on a project will be. Returns on investment can be divided into two buckets: increasing profits or decreasing losses aka as generating revenue vs reducing cost.
 
 ## Identifying opportunities for cost reduction
-- Easy: what are processes that a human can do within 3 seconds?
-    - These are boring, tedious, prone to error, and ripe for automation.
+- Easy: What are processes that are boring, tedious, and thus prone to error?
+    - What tasks would humans not mind giving up once trust is established?
+    - For classic ML, consider 3 second rule: what are processes that a human can do within 3 seconds?
+    - For GenAI, most are comfortable now with summarization across multi-modal inputs. Repetitive text-based tasks can also be considered as boredom sets in and by then dataset will exist for evaluation. Other use cases may be considered based on trust and risk of potential harm.
 - Medium: ask the above but for the customer’s customer.
 - Hard: where is the industry going? Requires domain expertise
-    - IoT 4, sustainability, efficiency
 
 ## Identifying opportunities for revenue generation using value chain
 - Organization/company
@@ -74,6 +75,7 @@ First, we establish what the potential returns on a project will be. Returns on 
 # Part 2: Prioritizing pipeline based on ROI
 
 ## Calculating returns
+- Important: be sure to establish that increased performance should be baselined against existing processes e.g. humans, and not a hypothetical perfect future. Do not let perfect be the enemy of progress.
 
 ### Calculating potential cost reduction
 - Start with cost reduction as it's often the easier one to determine since AI/ML is about automation.
@@ -139,6 +141,10 @@ Metrics
 
 ### Example 3: VP of Digital Transformation, TSMC
 Metrics
+
+
+# Part 3: Ensuring success of a DS project
+TBD
 
 
 # 2 path for stickiness
