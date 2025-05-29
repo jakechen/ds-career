@@ -7,25 +7,25 @@
     - 33% leading model development to ensure accuracy
     - 33% leading MLE development to ensure models end up in production
 - Switched to technical sales focused on AI.
+- 7 years AWS then 1+ GCP.
 
 ## Who is this for?
-This is for anyone who is selling AI/ML products*, including:
-- Account managers focused on AI/ML or carrying AI/ML quota
-- Internal DS
+This is for anyone who is selling AI/ML products and services at GCP or other Cloud providers.
 
 
-# First principles
+# Part 0: First principles
 ## AI/ML
-- AI is not money maker, data is money maker: “data has gravity”
+- AI is not money maker, data is money maker: “data has gravity”.
 - Thus makes the most sense to dangle latest AI to drive data gravity
 - AI is a long-term play: ROI-generating AI requires end user buy-in (UAT), data at scale (multiple teams, multiple warehouses), in production (DevOps, security)
+    - *Is this still the case w/ LLMs?*
 
 ## Sales
 - Friends buy from friends, and friends have each other's best interests at heart.
 - While we may not be able to help the stakeholder personally (yet), we may be able to help them get promoted.
 - Helping the stakeholder get promoted usually means helping their customers, both internal and external.
 - Thus helping our stakeholder help their customers (help their customers) = they get paid = we get paid
-- If our stakeholder gets paid more than they pay us i.e. positive ROI, then paying us is an obvious choice.
+- If our stakeholder gets paid more than they pay us i.e. **positive ROI**, then buying from us is an obvious choice.
  
 ## Mistakes made, lessons learned
 - Trying to sell solutions while not addressing business goals
@@ -38,17 +38,28 @@ This is for anyone who is selling AI/ML products*, including:
 
 
 # Part 1: Building a pipeline
-First, we establish what the potential returns on a project will be. Returns on investment can be divided into two buckets: increasing profits or decreasing losses aka as generating revenue vs reducing cost.
+Let's expand on the first principle that a positive ROI makes a buying from us an obvious choice, starting with breaking down identifying and calculating returns. Returns can be divided into two buckets based on P&L: generating revenue vs reducing cost.
 
-## Identifying opportunities for cost reduction
-- Easy: What are processes that are boring, tedious, and thus prone to error?
+## Opportunities for cost reduction
+- AI/ML = automation = cost reduction and efficiency improvement
+
+### Identification
+What are processes that are boring, tedious, and thus prone to error?
     - What tasks would humans not mind giving up once trust is established?
     - For classic ML, consider 3 second rule: what are processes that a human can do within 3 seconds?
     - For GenAI, most are comfortable now with summarization across multi-modal inputs. Repetitive text-based tasks can also be considered as boredom sets in and by then dataset will exist for evaluation. Other use cases may be considered based on trust and risk of potential harm.
-- Medium: ask the above but for the customer’s customer.
-- Hard: where is the industry going? Requires domain expertise
 
-## Identifying opportunities for revenue generation using value chain
+Important: be sure to establish that increased performance should be baselined against existing processes e.g. humans, and not a hypothetical perfect future. Do not let perfect be the enemy of progress.
+
+### Calculating potential cost reduction
+- Start with cost reduction as it's often the easier one to determine since AI/ML is about automation.
+- Cost reduced = time reduced per person * people enabled.
+
+## Opportunities for revenue generation using value chain
+- Logical to use value chain to extend cost reduction to customers's customers.
+- See Gemini and LLMs: $20/mo subscription 
+
+### Identification
 - Organization/company
     - What is their business model? Do they sell products, services, subscriptions, something else?
         - If B2C: Who is the end customer?
@@ -63,22 +74,15 @@ First, we establish what the potential returns on a project will be. Returns on 
     - Beware some DS can be defensive. Stress that you’re not here for their job and are only here to empower them
         - “1) you know more about your data than I do and 2) I’m very happy here at Google. I’m simply here to see if GCP can help you do your job easier.”
 
-
-# Part 2: Prioritizing pipeline based on ROI
-
-## Calculating returns
-- Important: be sure to establish that increased performance should be baselined against existing processes e.g. humans, and not a hypothetical perfect future. Do not let perfect be the enemy of progress.
-
-### Calculating potential cost reduction
-- Start with cost reduction as it's often the easier one to determine since AI/ML is about automation.
-- Cost reduced = time reduced per person * people enabled.
-
 ### Calculating potential revenue gained
 - What is customer willing to pay?
 - What is baseline value customer is gaining from your AI product/service?
 
-## Calculating investment
-### Operating Expenditure
+
+# Part 2: Prioritizing pipeline based on ROI
+Next, we establish what the potential investment 
+
+## Operating Expenditure
 Cloud consumption for custom AI/ML
 - Compute: data engineering
 - Compute: model training and inference
@@ -108,12 +112,12 @@ Cloud consumption for GenAI
     - Embedding index
     - Context cache
 
-### Capital Expenditure
+## Capital Expenditure
 Implementation
 - Internal: training, opportunity cost, new hires
 - Partner inc. GCC: high bill rate, PM overhead
 
-### Total expenditures
+## Total expenditures
 - What is breakeven? What are assumptions to / probablity of breakeven?
 
 ## Realizing ROI
