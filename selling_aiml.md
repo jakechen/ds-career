@@ -1,4 +1,4 @@
-# Jake’s guide to how to make money selling AI/ML
+# Jake’s guide to how to make money selling Cloud-native AI/ML
 
 # Introduction
 ## Who am I?
@@ -8,23 +8,14 @@
     - 33% leading MLE development to ensure models end up in production
 - Switched to technical sales focused on AI.
 
-## Why am I putting this together?
-- Because I have a horrible memory so I need notes to remind myself of what I've learned.
-- Because I have learned some things the hard way which some DS might find helpful.
-
-## Highlights
-- The most important question a Data Scientist should ask is **so what**... you have a good model, so what?
-    - Problems before solutions
-    - Communicate in domain language e.g. in manufacturing recall is defects caught and precision is good products scrapped
-- Cloud revenue comes from data, not from AI/ML infra
-    - Dangle latest AI to open the door, but pivot to underlying data
-- AI requires domain expertise and industrial language
-    - Must use customer’s language
-- Get upstream of sales pipeline
+## Who is this for?
+This is for anyone who is selling AI/ML products*, including:
+- Account managers focused on AI/ML or carrying AI/ML quota
+- Internal DS
 
 
 # First principles
-## AI
+## AI/ML
 - AI is not money maker, data is money maker: “data has gravity”
 - Thus makes the most sense to dangle latest AI to drive data gravity
 - AI is a long-term play: ROI-generating AI requires end user buy-in (UAT), data at scale (multiple teams, multiple warehouses), in production (DevOps, security)
@@ -34,11 +25,12 @@
 - While we may not be able to help the stakeholder personally (yet), we may be able to help them get promoted.
 - Helping the stakeholder get promoted usually means helping their customers, both internal and external.
 - Thus helping our stakeholder help their customers (help their customers) = they get paid = we get paid
-- If our stakeholder gets paid more than they me us i.e. positive ROI, then paying us is an obvious choice.
+- If our stakeholder gets paid more than they pay us i.e. positive ROI, then paying us is an obvious choice.
  
 ## Mistakes made, lessons learned
 - Trying to sell solutions while not addressing business goals
-    - Lesson: sell problems, not solutions; hide any technical discussion until calls 2 or 3
+    - Lesson: Sell problems being solving; do not sell products and solutions
+    - Action: Hide any technical discussion until calls 2 or 3
 - Not being able to articulate how my models would impact their bottom line
     - Lesson: Not having enough domain expertise
     - Lesson: AI is not sold to IT, it’s sold to business
@@ -173,3 +165,16 @@ Agenda:
 - Working backwards from personas to products
 - Specific examples
 - Working with account managers as specialists e.g. AI/ML strategy, stakeholders, etc
+
+
+# Unused
+## Highlights
+- The most important question an AI/ML project should ask is **so what**... you have a good model, so what?
+    - Projects must solve a business problem
+    - Communicate in domain language e.g. in manufacturing recall is defects caught and precision is good products scrapped
+- Cloud revenue comes from data, not from AI/ML infra
+    - Dangle latest AI to open the door, but LLMs don't make money
+    - pivot to underlying data
+- AI requires domain expertise and industrial language
+    - Must use customer’s language
+- Get upstream of sales pipeline
