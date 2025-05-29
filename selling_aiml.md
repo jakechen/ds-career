@@ -167,3 +167,9 @@ Agenda:
 - Hour 2: Business process understanding (we'll listen in for use cases here)
 - Hour 3: Use case deep dive, ROI justification, prioritization/triage
 - Hour 4: Technical deep dive, next steps
+
+
+# Feedback
+- Working backwards from personas to products
+- Specific examples
+- Working with account managers as specialists e.g. AI/ML strategy, stakeholders, etc
